@@ -25,3 +25,6 @@ else
   -- vim.g.python3_host_prog = use_if_defined(vim.g.python3_host_prog, "python3")
 end
 -- vim.g.python.pythonPath = vim.g.python_host_prog
+
+-- clipboard
+vim.opt.clipboard = "unnamedplus"
